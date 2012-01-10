@@ -3,7 +3,15 @@
 class NoWebsites extends Plugin
 {
 	/**
-	 * Check comment for honeypot field and qualify as spam accordingly
+	 * Load text domain for i18n
+	 */
+	public function action_init()
+	{
+		$this->load_text_domain( 'nowebsites' );
+	}
+
+	/**
+	 * Check comment for website field and qualify as spam accordingly
 	 *
 	 * @param float $spam_rating The spamminess of the comment as detected by other plugins
 	 * @param Comment $comment The submitted comment object
