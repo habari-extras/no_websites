@@ -8,5 +8,5 @@
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 	<guid>3b28ff00-8c50-4356-a052-54e0cb3666c6</guid>
 	<help><value><![CDATA[Once activated, this plugin flags new comments with a website URL as spam.]]></value></help>
-	<provides>spamcheck</provides>
+	<provides><feature url="http://wiki.habariproject.org/en/feature/spamcheck">spamcheck</feature></provides>
 </pluggable>
